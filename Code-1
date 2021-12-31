@@ -1,3 +1,13 @@
+/*
+*Functions: forward_wls(unsigned char node),left_turn_wls(void),right_turn_wls(void), e_shape(void),Task_1_1(void),Task_1_2(),nod(),
+			invert(),broken_line(),insert_at(location* header, int weight, struct adjlist** vertex_list),make_adjlist(),
+			follow_wall(),initiate_location(),swap(location** a, location** b),heapify(location* array[], int size, int i),
+			insert(location* array[], location* newNum),deleteRoot(location* array[], location* num),
+			optimal_dist(location current, location goal),checkclosed_list(location* arr[], location* ptr),
+			short_path(location start, location goal),traverse(),pick_place()
+Global Variables: counter, count_node, turning_velocity, forward_velocity,bridge_counter,bridge_limit,size,z,path[16]
+*/
+
 #include "CB_Task_1_Sandbox.h"
 
 int counter, count_node = 0, turning_velocity = 60, forward_velocity = 255, bridge_counter = 0, size = 0, z, flag_right = 0, flag_left = 0,goal_x,goal_y;
